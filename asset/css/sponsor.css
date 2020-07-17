@@ -1,0 +1,122 @@
+main {
+  position: inherit;
+  margin: 130px 0 80px;
+}
+
+.sponsors {
+  background: #0A2463;
+  color: #FFF;
+  padding: .5rem 3rem;
+  font-size: 20px;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.heading {
+  width: 55%;
+}
+
+.fire {
+  background-color: #d8315b;
+}
+
+.bg-flowers {
+  width: 80%;
+  background: rgba(216, 49, 91, 0.23);
+  border-radius: 10px;
+  padding: 40px 0;
+}
+
+.bg-form {
+  width: 50%;
+  background: #FFF;
+  border-radius: 10px;
+  padding: 30px 10px;
+}
+
+.form {
+  width: 90%;
+  margin: auto;
+}
+
+.sub-btn {
+  background-color: #d8315b;
+  color: #FFF;
+  border-radius: 10px;
+  border: none;
+}
+
+.form-control-xp input {
+  border: 2px solid #F0F0F0;
+  border-radius: 4px;
+}
+
+.form-control-xp i {
+  margin-right: 10px;
+  float: right;
+  transform: translateY(-34px);
+  visibility: hidden;
+}
+
+.form-control-xp small {
+  font-size: 15px;
+  visibility: hidden;
+}
+
+.form-control-xp.error input {
+  border-color: #E74C3C;
+}
+
+.form-control-xp.success input {
+  border-color: #2ECC71;
+}
+
+.form-control-xp.success i.fa-check-circle {
+  color: #2ECC71;
+  visibility: visible;
+}
+
+.form-control-xp.error i.fa-exclamation-circle {
+  margin-left: 20px;
+  margin-right: 0;
+  color: #E74C3C;
+  visibility: visible;
+}
+
+.form-control-xp.error small {
+  color: #E74C3C;
+  visibility: visible;
+}
+
+.figure-only {
+  width: 100%;
+  height: 90%;
+  background: #FFF;
+  vertical-align: middle;
+}
+
+@media only screen and (max-width: 786px) {
+  .bg-form {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .bg-flowers {
+    width: 95%;
+  }
+  
+  .bg-form {
+    width: 85%;
+  }
+  
+  .heading {
+    width: 90%;
+  }
+  
+  .heading h4 {
+    font-size: 16px;
+  }
+}
