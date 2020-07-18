@@ -51,7 +51,7 @@ h1, h2, h3, h4, h5, h6, p{
 
 .nav{
     background-color: var(--white);
-    padding: 1rem 0.5rem;
+    padding: 1rem 0.5rem 0;
     width: 100%;
     position: fixed;
     left: 0;
@@ -212,7 +212,7 @@ div.parent{
 
 @media screen and (min-width: 1000px){
     .nav{
-        padding: 1rem 0.5rem;;
+        padding: 1rem 0.5rem 0;
     }
     .nav-center{
         width: 100%;
